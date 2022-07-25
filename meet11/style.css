@@ -1,0 +1,79 @@
+html {
+  font-size: 18px;
+  background-color: black;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container h1{
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.container {
+  background-color: #fff;
+  width: 1200px;
+  margin: 100px auto 0 auto;
+}
+
+.col-left,
+.col-right {
+  /* border: 1px solid green; */
+  display: inline-block;
+  vertical-align: top;
+  margin: 1rem;
+}
+
+.col-left p,
+.col-right p {
+  text-align: justify;
+}
+
+.col-left {
+  width: 35%;
+}
+
+.col-right {
+  width:58%;
+  margin-left: 1em;
+}
+
+.col-right p {
+  margin-top: 1.5em;
+}
+
+.col-left img {
+  width: 100%
+}
+
+.link-category {
+  background-color: #5d7fb9;
+  color: white;
+  text-decoration: none;
+  padding: 10px 40px;
+  /* line-height: 36px; */
+  display: inline-block; 
+}
+
+.col-right p:first-child {
+  margin-top: 0;
+} 
+
+.at-icon-facebook {
+  background-color: rgb(59, 89, 152);
+  
+}
+
+.at-icon {
+  fill: #fff;
+}
+
+.at-icon-twitter {
+  background-color: rgb(29, 161, 242);
+}
+
+.at-icon-linkedin {
+  background-color: rgb(0, 119, 181);
+}
